@@ -1,0 +1,50 @@
+.nav {
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Img {
+  height: 5px;
+  width: 5px;
+}
+.logoArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoArea h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  opacity: 0.8;
+}
+
+.button {
+  background: linear-gradient(90deg, #0084ff, #00e0ff);
+  border: none;
+  padding: 12px 28px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
