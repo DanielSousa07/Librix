@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5px; /* equivalente ao Figma */
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 100;
+  gap: 50px;
+  
+}
+
+/* Logo */
+.header-logo-area {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  
+}
+
+.logo-img {
+  width: 150px;
+  height: 140px;
+ /* coloque sua imagem */
+  background-size: cover;
+  background-position: center;
+}
+.logo-img img {
+    width: 170px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    
+}
+
+.logo-text {
+  font-family: "Fredoka One", sans-serif;
+  font-size: 48px;
+  color: white;
+}
+
+/* Nav */
+.navbar-box {
+  background: white;
+  border-radius: 8px;
+  padding: 8px 40px 8px 40px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar-links a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #2C7AED;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Botão */
+.call-btn-container {
+  width: 162px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+}
+
+.call-btn {
+  width: 100%;
+  height: 100%;
+
+  font-family: "Fredoka One";
+  font-size: 20px;
+  color: white;
+
+  background: linear-gradient(90deg, #2C7AED 50%, #4BC3CC 100%);
+  border: none;
+  border-radius: 8px;
+}
