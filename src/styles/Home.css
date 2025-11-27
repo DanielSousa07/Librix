@@ -1,3 +1,108 @@
-body {
-  background-color: red;
+/* --- ESTILOS GLOBAIS DE BASE --- */
+.home-container {
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
+
+.main-content {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 0; /* remover o imperior superior */
+}
+
+/* --- ESTILOS DO HERO  --- */
+.hero-section {
+  width: 100%;
+  min-height: 105vh; 
+  position: relative;
+  top: 0;
+  
+  background-image: url('../assets/backgroundlinear.png'); 
+  background-repeat: no-repeat;
+  
+  background-size: 73% 112%; 
+  
+  background-position: left top; 
+  
+  background-color: #fcfdff; 
+}
+
+/* ------ ESTILOS DO CONTEUDO DE DESTAQUE ------ */
+
+.hero-content-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  top: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 35px;
+}
+
+/* Estilos de texto do destaque */
+
+.text-content {
+  color: #ffff;
+  max-width: 500px;
+  z-index: 10;
+  font-size: 20px;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-family: 'Fredoka One';
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: white;
+}
+
+.highlight {
+  color: #4bc3cc;
+  background: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  display: inline-block;
+  transform: rotate(-3deg);
+  border-radius: 7px;
+}
+
+/* Estilos para o lado direito, imagem */ 
+
+.hero-image-overlay {
+  position: relative;
+  width: 500px;
+   /* puxa pra cima */
+  z-index: 10;
+}
+
+.hero-image {
+  width: 120%;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+}
+
+.cta-button {
+  background: white;
+  color: #4bc3cc;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-family: 'fredoka one';
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
