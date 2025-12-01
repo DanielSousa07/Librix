@@ -1,4 +1,8 @@
-import React from 'react';
+import {React, useEffect} from 'react';
+import Bg from '../assets/backgroundlinear.png';
+import mascot from '../assets/mascot.png';
+import "aos/dist/aos.css";
+import AOS from 'aos';
 import Header from '../components/Header';
 import "../styles/Contact.css";
 

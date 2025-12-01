@@ -31,7 +31,7 @@ export default function Header() {
       </nav>
 
       <div className="call-btn-container">
-        <Link to="/contato">
+        <Link to="/contato" className="call-btn">
           <button className="call-btn">Contato</button>
         </Link>
       </div>

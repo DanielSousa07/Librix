@@ -2,7 +2,7 @@ import React from 'react';
 import Home from "./pages/Home.jsx";
 import Header from './components/Header.jsx';
 import Contato from './pages/Contact.jsx'; 
-import {BrowserRouter, Link} from 'react-router-dom';
+import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
 export default function App() {
   return (
     <BrowserRouter>

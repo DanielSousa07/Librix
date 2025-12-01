@@ -15,21 +15,28 @@
 }
 
 /* --- ESTILOS DO HERO  --- */
+/* ============================
+   ESTILO BASE — qualquer tela
+   ============================ */
 .hero-section {
   width: 100%;
-  min-height: 105vh; 
+  min-height: 105vh;
   position: relative;
-  top: 0;
-  
-  background-image: url('../assets/backgroundlinear.png'); 
+
+  background-image: url('../assets/backgroundlinear.png');
   background-repeat: no-repeat;
+  background-position: left top;
+
+  /* AUTO-RESPONSIVO sem media queries */
+  background-size: calc(61.9vw + 180px) 112%; 
+  /* ajuste fino */
   
-  background-size: 73% 112%; 
-  
-  background-position: left top; 
-  
-  background-color: #fcfdff; 
+  background-color: #fcfdff;
 }
+
+
+
+
 
 /* ------ ESTILOS DO CONTEUDO DE DESTAQUE ------ */
 

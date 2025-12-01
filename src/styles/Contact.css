@@ -1,0 +1,94 @@
+.contact-container {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+/* MESMO BG DA HOME */
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url('../assets/backgroundlinear.png');
+  background-repeat: no-repeat;
+  background-size: 73% 112%;
+  background-position: left top;
+  background-color: #fcfdff;
+
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+/* WRAPPER DE CONTEÚDO */
+.contact-wrapper {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* TEXTOS */
+.contact-title {
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  color: white;
+  max-width: 450px;
+  margin-top: 10px;
+}
+
+/* FORMULÁRIO */
+.contact-form {
+  background: white;
+  width: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* BOTÃO */
+.form-btn {
+  width: 100%;
+  margin-top: 10px;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 1.2rem;
+}
