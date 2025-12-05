@@ -16,7 +16,7 @@ export default function Header() {
       <nav className="navbar-box">
         <ul className="navbar-links">
           <li>
-            <a href="#home">Home</a>
+            <Link to="/"><a href="">Home</a></Link>
           </li>
           <li>
             <a href="#alfabeto">Alfabeto em Libras</a>
