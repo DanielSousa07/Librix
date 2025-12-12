@@ -1,19 +1,18 @@
 /* =============================
    SEÇÃO DE CONTATO (BACKGROUND)
    ============================= */
+/* src/styles/Contact.css (CÓDIGO MODIFICADO) */
 .contact-section {
   width: 100%;
   min-height: 100vh;
   padding: 180px 40px 120px 40px;
   position: relative;
   overflow: hidden;
-   background: linear-gradient(135deg, #1f74ff 0%, #1eaedb 60%, #4cd6ff 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
 }
-
 
 /* FORMAS DE FUNDO */
 .contact-section::before,
@@ -352,8 +351,6 @@
   margin: 0 auto 10px auto;
 }
 
-/* Chuvas de Letras em Libras */ 
-
 #libras-rain {
   position: fixed;
   top: 0;
@@ -362,4 +359,5 @@
   height: 100%;
   z-index: -1;  /* Fica atrás de tudo */
   pointer-events: none;
+  background: linear-gradient(135deg, #1f74ff 0%, #1eaedb 60%, #4cd6ff 100%);
 }
