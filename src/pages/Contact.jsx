@@ -3,14 +3,17 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import Header from "../components/Header";
 import "../styles/Contact.css";
+import { startLibrasRain } from '../utils/librasRain';
 
 export default function Contato() {
   useEffect(() => {
+    startLibrasRain();
     AOS.init({ duration: 900, once: true });
   }, []);
 
   return (
     <>
+      <canvas id="libras-rain"></canvas>
       <Header />
 
       <section className="contact-section">
@@ -24,7 +27,7 @@ export default function Contato() {
           =========================================================== */}
           <div className="contact-left" data-aos="fade-right">
             <h1>Vamos conversar!</h1>
-            <p>
+            <p >
               Entre em contato com nossa equipe. Estamos aqui para te ajudar!
             </p>
 

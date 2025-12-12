@@ -77,18 +77,32 @@
   align-items: center;
 }
 
+/* === BOTÃO PADRÃO (HOME – FUNDO AZUL) === */
 .call-btn {
   width: 100%;
   height: 100%;
-
   font-family: "Fredoka One";
   font-size: 20px;
-  color: white;
-
-  background: linear-gradient(90deg, #2C7AED 50%, #4BC3CC 100%);
-  border: none;
+  color: #2C7AED;               /* texto azul */
+  background: white;            /* fundo branco */
+  border: 2px solid #2C7AED;
   border-radius: 8px;
 }
-.call-btn:hover {
- transform: transition scale(20px); 
+
+
+/* === QUANDO ESTÁ NA PÁGINA DE CONTATO (FUNDO BRANCO) === */
+.header-container.header-on-contact .call-btn {
+  background: linear-gradient(90deg, #2C7AED 50%, #4BC3CC 100%) !important;
+  color: white !important;
+  border: none !important;
 }
+
+/* Links também mudam para azul sólido */
+
+/* Hover corrigido */
+.call-btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+

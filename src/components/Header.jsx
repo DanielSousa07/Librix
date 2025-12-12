@@ -1,9 +1,15 @@
-import React from "react";
+import {React, useEffect} from "react";
 import "../styles/Header.css";
 import logo from "../assets/header-logo.svg";
 import { Link } from "react-router-dom";
+import { initHeaderScrollEffect } from "../utils/headerScroll";
 
 export default function Header() {
+
+  useEffect(() => {
+    initHeaderScrollEffect();
+  }, []);
+
   return (
     <header className="header-container">
       <div className="header-logo-area">
