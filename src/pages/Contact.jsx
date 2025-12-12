@@ -10,8 +10,8 @@ export default function Contato() {
     const stop = startLibrasRain({
       imagePath: "/libras/",
       imageFiles: ["a.svg", "b.svg", "c.svg", "d.svg", "e.svg", "f.svg", "g.svg", "h.svg", "i.svg", "j.svg", "k.svg", "l.svg", "m.svg", "n.svg", "o.svg", "p.svg", "q.svg", "r.svg", "s.svg", "t.svg", "u.svg", "v.svg", "w.svg", "x.svg", "y.svg", "z.svg"],
-      fontSize: 48,
-      baseSpeedPxPerSec: 18, 
+      fontSize: 150,
+      baseSpeedPxPerSec: 125, 
       trailAlpha: 0.07
     });
     AOS.init({ duration: 900, once: true });

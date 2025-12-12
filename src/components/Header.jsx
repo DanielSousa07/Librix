@@ -28,17 +28,17 @@ export default function Header() {
             <a href="#alfabeto">Alfabeto em Libras</a>
           </li>
           <li>
-            <a href="#jogos">Jogos</a>
+            <a href="#sobre">Sobre Libras</a>
           </li>
           <li>
-            <a href="#sobre">Sobre Libras</a>
+            <Link to="/contato"><a>Contato</a></Link>
           </li>
         </ul>
       </nav>
 
       <div className="call-btn-container">
-        <Link to="/contato" className="call-btn">
-          <button className="call-btn">Contato</button>
+        <Link to="/jogos" className="call-btn">
+          <button className="call-btn">Jogue</button>
         </Link>
       </div>
     </header>
