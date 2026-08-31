@@ -560,6 +560,12 @@ a {
   .info-container {
     grid-template-columns: 1fr 1fr;
   }
+
+  .info-lead,
+  .info-text,
+  .info-title {
+    color: #ffffff;
+  }
 }
 
 @media (max-width: 980px) {
@@ -682,6 +688,12 @@ a {
   .info-actions {
     justify-content: center;
   }
+
+  .info-lead,
+  .info-text,
+  .info-title {
+    color: #ffffff;
+  }
 }
 
 @media (max-width: 768px) {
@@ -723,6 +735,12 @@ a {
 
   .info-title {
     font-size: clamp(1.8rem, 6vw, 2.5rem);
+  }
+
+  .info-lead,
+  .info-text,
+  .info-title {
+    color: #ffffff;
   }
 }
 
@@ -842,5 +860,11 @@ a {
   .info-card {
     padding: 22px 18px;
     border-radius: 22px;
+  }
+
+  .info-lead,
+  .info-text,
+  .info-title {
+    color: #ffffff;
   }
 }
