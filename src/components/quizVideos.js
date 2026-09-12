@@ -1,44 +1,65 @@
 export const perguntas = [
-    {
+  {
     id: 1,
-    youtubeId: "J3I2gSjO52Q", /* https://www.youtube.com/watch?v=J3I2gSjO52Q */
-    pergunta: "Qual letra este sinal representa?",
-    opcoes: ["A", "M", "N", "R"],
-    correta: "M"
+    youtubeId: "Su55l2wVAQk",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Daiane", "Daniel", "Diana", "Dalila"],
+    correta: "Daiane"
   },
   {
     id: 2,
-    youtubeId: "DZqEJ-5HIoc", /* https://www.youtube.com/watch?v=DZqEJ-5HIoc */
-    pergunta: "Qual letra este sinal representa?",
-    opcoes: ["B", "D", "P", "T"],
-    correta: "B"
+    youtubeId: "PYThwYc0FoE",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Elias", "Eminem", "Edson", "Elton"],
+    correta: "Eminem"
   },
   {
     id: 3,
-    youtubeId: "s5QtTZhWNE4", /* https://www.youtube.com/watch?v=s5QtTZhWNE4 */
-    pergunta: "Qual letra este sinal representa?",
-    opcoes: ["L", "K", "T", "F"],
-    correta: "F"
+    youtubeId: "1pu6sfoQR7U",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Felipe", "Fátima", "Flavia", "Fabiana"],
+    correta: "Flavia"
   },
   {
-    id: 4, 
-    youtubeId: "NPYLv2q1THQ", /* https://www.youtube.com/watch?v=NPYLv2q1THQ */
-    pergunta: "Qual letra este sinal representa?",
-    opcoes: ["J", "I", "P", "E"],
-    correta: "J"
+    id: 4,
+    youtubeId: "1fJ4Q5CJul0",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Daniel", "Danilo", "Diego", "Douglas"],
+    correta: "Daniel"
   },
   {
     id: 5,
-    youtubeId: "esHOhai8L8E", /* https://www.youtube.com/watch?v=esHOhai8L8E */
-    pergunta: "Qual letra este sinal representa?",
-    opcoes: ["B", "T", "Y", "F"],
-    correta: "T"
+    youtubeId: "ySl7nBlRBK0",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["José", "Joao", "Julio", "Jonas"],
+    correta: "Joao"
   },
   {
     id: 6,
-    youtubeId: "D5m30OXpoR4", /* https://www.youtube.com/watch?v=D5m30OXpoR4 */
-    pergunta: "Qual letra este sinal representa?",
-    opcoes: ["B", "D", "G", "Q"],
-    correta: "G"
+    youtubeId: "ykda0LhNxwU",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Marcos", "Mateus", "Matheus", "Marcelo"],
+    correta: "Matheus"
+  },
+  {
+    id: 7,
+    youtubeId: "70ssHSygzts",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Thamyres", "Tatiana", "Tamara", "Thalita"],
+    correta: "Thamyres"
+  },
+  {
+    id: 8,
+    youtubeId: "usuk9vvEIsI",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Thiago", "Thayne", "Taina", "Teresa"],
+    correta: "Thayne"
+  },
+  {
+    id: 9,
+    youtubeId: "xRq8wk1a-dE",
+    pergunta: "Qual nome está sendo soletrado neste vídeo?",
+    opcoes: ["Valeria", "Vitoria", "Viviane", "Vanessa"],
+    correta: "Vitoria"
   }
-]
+];
