@@ -13,7 +13,7 @@ Uma aplicação web interativa e acessível desenvolvida para aproximar ouvintes
 ## 💻 Preview
 
 <div align="center">
-  <img src="./preview.jpg" alt="Interface da plataforma Librix" width="800px" />
+  <img src="./preview.png" alt="Interface da plataforma Librix" width="800px" />
 </div>
 
 ## 🧠 Sobre o Projeto
